@@ -29,8 +29,6 @@ window.addEventListener('click', function (event) {
 									<div class="cart-item__desc">
 										<div class="cart-item__title">${productInfo.title}</div>
 										<div class="cart-item__weight">${productInfo.itemsInBox} / ${productInfo.weight}</div>
-
-										<!-- cart-item__details -->
 										<div class="cart-item__details">
 
 											<div class="items items--small counter-wrapper">
@@ -44,7 +42,6 @@ window.addEventListener('click', function (event) {
 											</div>
 
 										</div>
-										<!-- // cart-item__details -->
 
 									</div>
 								</div>
