@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"title": "Кофе",
+		"itemsInBox": 1,
+		"weight": 180,
+		"price": 3,
+		"imgSrc": "coffee_cup2.png"
+	},
+	{
+		"id": 2,
+		"title": "Чай чорний",
+		"itemsInBox": 1,
+		"weight": 205,
+		"price": 5,
+		"imgSrc": "tea_black.png"
+	},
+	{
+		"id": 3,
+		"title": "Чай зелений",
+		"itemsInBox": 1,
+		"weight": 182,
+		"price": 3,
+		"imgSrc": "tea_green.png"
+	},
+	{
+		"id": 4,
+		"title": "Капучіно",
+		"itemsInBox": 1,
+		"weight": 230,
+		"price": 6,
+		"imgSrc": "latte.png"
+	}
+]
