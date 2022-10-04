@@ -1,11 +1,9 @@
 window.addEventListener('click', function (event) {
 	let counter;
 
-	if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus' || event.target.dataset.action === 'payment') {
+	if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
 		const counterWrapper = event.target.closest('.counter-wrapper');
 		counter = counterWrapper.querySelector('[data-counter]');
-		const payment = event.target.closest('.counter-wrapper');
-		payment = payment.querySelector('[data-action]');
 	}
 
 	if (event.target.dataset.action === "button") {
@@ -26,7 +24,6 @@ window.addEventListener('click', function (event) {
 		if (parseInt(counter.innerText) > 1) {
 			counter.innerText = --counter.innerText;
 		} else if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
-			console.log('IN CART!!!!');
 			event.target.closest('.cart-item').remove();
 			toggleCartStatus();
 			calcCartPrice();
