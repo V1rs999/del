@@ -117,7 +117,7 @@ img {
 }
 
 .price__weight {
-	color: #6c757d !important;
+	color: #6c757d;
 	font-size: 80%;
 	line-height: 1;
 }
@@ -168,7 +168,7 @@ img {
 }
 
 .cart-item__weight {
-	color: #6c757d !important;
+	color: #6c757d;
 	font-size: 80%;
 	line-height: 1;
 	margin-bottom: 15px;
