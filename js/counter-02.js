@@ -9,9 +9,9 @@ window.addEventListener('click', function (event) {
 	if (event.target.dataset.action === "button") {
 		let val = document.getElementById('input').value;
 		if (i <= val) {
-			alert('оплата успішна', val)
+			alert(`оплата успішна ${val}`)
 		} else {
-			alert('нестача коштів', val)
+			alert(`нестача коштів ${val - i}`)
 		}
 	}
 
